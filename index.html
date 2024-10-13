@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFusion - Belajar Tanpa Batas</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">EduFusion</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navbar-menu">
+                <a href="#kursus">Kursus</a>
+                <a href="#kategori">Kategori</a>
+                <a href="#instruktur">Instruktur</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Belajar Tanpa Batas di EduFusion</h1>
+        <a href="" class="btn">Mulai Belajar</a>
+    </header>
+
+    <section id="kursus" class="courses">
+        <h2>Kursus Unggulan</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="src/china.jpg" alt="Web Development">
+                <h3>Jepang Masterclass</h3>
+                <p>Rp 24.000</p>
+            </div>
+            <div class="course-card">
+                <img src="src/inggris.jpg" alt="Data Science">
+                <h3>Inggris Absolute Cinema</h3>
+                <p>Rp 24.000</p>
+            </div>
+            <div class="course-card">
+                <img src="src/jepang.jpg" alt="Digital Marketing">
+                <h3>Japan Mina Tomo Arigatona</h3>
+                <p>Gratis Lur</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kategori" class="categories">
+        <h2>Jelajahi Kategori</h2>
+        <div class="category-grid">
+            <div>
+                <img src="src/jpn.jpg" alt="Pemrograman">
+                <p>JAPAN</p>
+            </div>
+            <div>
+                <img src="src/igrs.jpg" alt="Bisnis">
+                <p>INGGRIS</p>
+            </div>
+            <div>
+                <img src="src/cnn.jpg" alt="Desain">
+                <p>CHINA</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="instruktur" class="instructors">
+        <h2>Instruktur Terbaik Kami</h2>
+        <div class="instructor-grid">
+            <div class="instructor-card">
+                <img src="src/HEKAL.jpg" alt="Dr. Andi Pratama">
+                <div class="instructor-info">
+                    <h3>Dr.Muhamad Haekal</h3>
+                    <p>Pakar Japan </p>
+                </div>
+            </div>
+            <div class="instructor-card">
+                <img src="src/safin.jpg" alt="Siti Rahma">
+                <div class="instructor-info">
+                    <h3>Sir. Safin Nur Imantoro</h3>
+                    <p>King Inggris</p>
+                </div>
+            </div>
+            <div class="instructor-card">
+                <img src="src/rafi.jpg" alt="Budi Santoso">
+                <div class="instructor-info">
+                    <h3>Rafi Cunpeng Yan</h3>
+                    <p>Engkoh China Pro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Siap untuk Memulai Perjalanan Belajar Anda?</h2>
+        <a href="#" class="btn">Daftar Sekarang</a>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h3>Hubungi Kami</h3>
+            <p>Email: info@edufusion.com</p>
+            <p>Telepon: 081311572546</p>
+        </div>
+        <p>&copy; 2024 EduFusion. Hak Cipta Dilindungi</p>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navbarMenu = document.querySelector('.navbar-menu');
+
+        hamburger.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
